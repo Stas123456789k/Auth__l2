@@ -1,0 +1,41 @@
+<html> 
+<head>
+ <title> Форма регистрации </title>
+ </head>
+ <body> 
+<h1 align="center"> <font size="5" color="red"> Форма регистрации  </font></h1>
+<div align="center" <font size="3" <b>  
+<form action = "mailto:stasklimovich2006@mail.ru" enctype="text/plain"></form>
+<h2><font size="3"> Имя <input type="text" name="Firstname" required> </font></h2>
+<h3><font size="3"> e-mail <input type="email" name="Email" required> </font></h3> 
+<h4><font size="3"> Пароль <input type="password" name="Password" required> </font></h4> 
+<h5><font size="3"> Повтор пароля <input type="password" name="Password2" required> </font></h5> 
+<h6><font size="3">Пол <input type="radio" name="Radio" value="2" required>Мужской 
+<input type="radio" name="Radio" value="3">Женский </font></h6> 
+<h7 align="left"><font size="3"><b> Увлечения </font></h7> 
+<select id="categories" name="categories" multiple required> 
+<option value="Fashion">Мода</option>
+<option value="">Здоровый образ жизни</option>
+<option value="games">Стиль</option>
+<option value="animals">Конный спорт</option>
+<option value="Books">Книги</option>
+<option value="Skin care">Уход за собой</option>
+<option value="films">Фильмы</option>
+<option value="DIY">Рукоделие</option>
+<option value="cooking">Кулинария</option>
+<option value="travel">Путешествия</option>
+<option value="other">Другое</option>
+</select> 
+<br> 
+<br>
+<h8><font size="3"><b>Ваши пожелания </font></h8>
+<textarea name="Message" rows="3" cols="15"></textarea>
+<br>
+<br>
+С условиями регистрации <br> ознакомлен(а): <input type="checkbox" name="terms" value="yes" required>
+<br>
+<input type ="submit" name="send" value="Отправить">
+<input type="reset" name="clean" value="Очистить"> </form> 
+</div>
+</body>
+</html>
